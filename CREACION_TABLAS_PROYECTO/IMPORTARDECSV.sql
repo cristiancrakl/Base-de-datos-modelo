@@ -1,0 +1,80 @@
+COPY ESPO.CONCEPTO
+FROM 'C:\Proyecto\Base de datos modelo\CREACION_TABLAS_PROYECTO\archivosCSV\concepto.csv'
+DELIMITER ','
+CSV HEADER;
+
+
+COPY ESPO.BARRIO
+FROM 'C:\Proyecto\Base de datos modelo\CREACION_TABLAS_PROYECTO\archivosCSV\barrio.csv'
+DELIMITER ','
+CSV HEADER;
+
+
+COPY ESPO.GRUPO_FAMILIAR
+FROM 'C:\Proyecto\Base de datos modelo\CREACION_TABLAS_PROYECTO\archivosCSV\grupo_familiar.csv'
+DELIMITER ','
+CSV HEADER;
+
+COPY ESPO.MEDIDOR
+FROM 'C:\Proyecto\Base de datos modelo\CREACION_TABLAS_PROYECTO\archivosCSV\medidor.csv'
+DELIMITER ','
+CSV HEADER;
+
+COPY ESPO.SUSCRIPTOR
+FROM 'C:\Proyecto\Base de datos modelo\CREACION_TABLAS_PROYECTO\archivosCSV\suscriptor.csv'
+DELIMITER ','
+CSV HEADER;
+
+COPY ESPO.PREDIO
+FROM 'C:\Proyecto\Base de datos modelo\CREACION_TABLAS_PROYECTO\archivosCSV\predio.csv'
+DELIMITER ','
+CSV HEADER;
+
+COPY ESPO.FACTURA
+FROM 'C:\Proyecto\Base de datos modelo\CREACION_TABLAS_PROYECTO\archivosCSV\factura.csv'
+DELIMITER ','
+CSV HEADER;
+
+COPY ESPO.DETALLE_FACTURA
+FROM 'C:\Proyecto\Base de datos modelo\CREACION_TABLAS_PROYECTO\archivosCSV\detalle_factura.csv'
+DELIMITER ','
+CSV HEADER;
+
+COPY ESPO.DETALLE_FACTURA (NUMERO_FACTURA, ID_TARIFA, VALOR)
+FROM 'C:/Proyecto/Base de datos modelo/CREACION_TABLAS_PROYECTO/archivosCSV/detalle_factura.csv'
+WITH (FORMAT CSV, HEADER TRUE, ENCODING 'UTF8');
+
+SELECT *
+FROM ESPO.AUDI_FACTURA
+
+DELETE FROM ESPO.FACTURA
+WHERE NUMERO_FACTURA BETWEEN 'F03001' AND 'F03256';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+				

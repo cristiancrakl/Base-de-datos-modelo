@@ -1,0 +1,38 @@
+﻿ID_GUSTO;ID_SER;ID_CATEGORIA;NOMBRE_GUSTO;TIPO_PREFERENCIA;OBSERVACION
+1;M;1;Huevo;NO LE GUSTA;Cualquier cosa que tenga sabor a huevo.
+2;M;1;Embutidos;NO LE GUSTA;Salchichas, salchichón y mortadela. Puede comerlos, pero no le gustan.
+3;M;1;Arepas;NO LE GUSTA;Excepto las rellenas.
+4;M;1;Bollo, mafufo y plátano cocido;NO LE GUSTA;Y preparaciones similares cuando se comen solamente con queso.
+5;M;1;Yuca;NO LE GUSTA;Prefiere con queso. No le gusta la yuca en la sopa.
+6;M;1;Pastel;NO LE GUSTA;
+7;M;1;Gelatina;NO LE GUSTA;
+8;M;1;Queso amarillo;NO LE GUSTA;Específicamente cheddar.
+9;M;1;Panes con sabor a huevo;NO LE GUSTA;
+10;M;1;Pescado;NO LE GUSTA;No le gusta el olor, aunque reconoce que el sabor está bien.
+11;M;1;Gaseosas;NO LE GUSTA;
+12;M;1;Jugos;NO LE GUSTA;Aclaró que no toma jugos.
+13;M;1;Uvas pasas;NO LE GUSTA;
+14;M;1;Peras;NO LE GUSTA;
+15;M;1;Manzanas rojas;NO LE GUSTA;
+16;M;1;Zanahoria en la sopa;NO LE GUSTA;
+17;M;1;Ahuyama;NO LE GUSTA;
+18;M;1;Miel;NO LE GUSTA;"Odia el olor, el sabor y la textura; le provoca náuseas."
+19;M;1;Avena de bolsitas;NO LE GUSTA;
+20;M;1;Leche en polvo Klim;NO LE GUSTA;
+21;M;1;Productos Colanta;NO LE GUSTA;Siente que saben demasiado dulces.
+22;M;2;Cosas dulces en general;NO LE GUSTA;Le empalagan.
+23;M;2;Chocolate;NO LE GUSTA;Excepto el amargo, que sí le gusta.
+24;M;2;Chocolate blanco;NO LE GUSTA;Dijo que lo odia.
+25;M;2;Helado de chicle;NO LE GUSTA;
+26;M;2;Boli de galleta;NO LE GUSTA;
+27;M;2;Galletas en general;NO LE GUSTA;Especialmente las rellenas.
+28;M;2;Leche condensada;NO LE GUSTA;
+29;M;2;Leches saborizadas;NO LE GUSTA;Como las de fresa o chocolate.
+30;M;3;Tomate de árbol;NO LE GUSTA;Es alérgica, así que esto no es simplemente un gusto personal.
+31;M;3;Peras y manzanas rojas;NO LE GUSTA;Repetido también como excepción.
+32;M;3;Uvas pasas (frutas);NO LE GUSTA;Repetido también como excepción.
+33;M;3;Guayaba dulce sola;NO LE GUSTA;La agria sí le gusta y también toma jugo de guayaba dulce.
+34;M;4;Pollo en presentaciones grandes;NO LE GUSTA;No le gusta de esa manera.
+35;M;4;Comida de mar;NO LE GUSTA;No le encanta porque siente que todo sabe a pescado.
+36;M;4;Arroz de coco;NO LE GUSTA;Dijo que no le gusta mucho.
+37;M;4;Café de Café del Lago;NO LE GUSTA;Comentó que no le gusta, aunque se lo toma si se lo ofrecen.
